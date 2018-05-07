@@ -1,0 +1,2 @@
+# people
+Decentralized Social Network
