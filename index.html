@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Validation</title>
+  
+<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+ <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/extra.css">
+	
+	<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+<link href="css/chkbx-radio.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="light-gray-bg">
+	<header>
+		<h2 class="section-title">Contact Validation</h2>
+	</header>
+	<div class="wrapper tab">
+		
+	<div class="col-md-4 col-sm-12 pad0" style="margin-bottom: 10px;">
+		<div class="form-group">
+			<div class="col-md-4 col-sm-12">
+          <label for="">Overdue Period</label>
+			</div>
+			<div class="col-md-8 col-sm-12">
+           <select class="form-control" id="customer_type" name="customer_type" value="" data-parsley-required="true" data-parsley-required-message="Customer Type field is required">
+                   <option value="">All</option>
+                   <option value="1">0 - 2</option>
+                   <option value="2">3 - 4</option>
+			       <option value="3">5 - 6</option>
+                   <option value="4">> 6</option>
+           </select>
+			</div>
+      </div>
+	</div>
+	
+	<div class="col-md-12 col-sm-12 pad0">
+ 		 <div class="accordion js-accordion">
+			 <div class="accordion__item js-accordion-item red-bg">
+				<div class="accordion-header">
+					<div class="col-md-2 col-sm-2 pad0">Loan Account No</div>
+					<div class="col-md-2 col-sm-2 pad0">Name</div>
+					<div class="col-md-8 col-sm-8 pad0">Current Bucket</div>
+				  </div>   
+  			</div><!-- end of accordion item 1-->
+				  
+ 			 <div class="accordion__item js-accordion-item active">
+    <div class="accordion-header js-accordion-header">
+		<div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+		<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+		<div class="col-md-8 col-sm-8 pad0">3</div>
+	  </div> 
+  <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->			 
+  </div><!-- end of accordion item 2-->
+				 
+ 			 <div class="accordion__item js-accordion-item">
+				<div class="accordion-header js-accordion-header">
+					<div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+					<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+					<div class="col-md-8 col-sm-8 pad0">3</div>	
+				</div> 
+			    <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->
+  </div><!-- end of accordion item 3-->
+				 
+   			 <div class="accordion__item js-accordion-item">
+				<div class="accordion-header js-accordion-header">
+							 <div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+					<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+					<div class="col-md-8 col-sm-8 pad0">3</div>
+				</div> 
+  				 <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->
+  </div><!-- end of accordion item 4-->
+				 
+    		 <div class="accordion__item js-accordion-item">
+				<div class="accordion-header js-accordion-header">
+					<div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+					<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+					<div class="col-md-8 col-sm-8 pad0">3</div>
+				</div> 
+ 				 <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->
+  </div><!-- end of accordion item 5-->
+				 
+    		 <div class="accordion__item js-accordion-item">
+				<div class="accordion-header js-accordion-header">
+					<div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+					<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+					<div class="col-md-8 col-sm-8 pad0">3</div>
+				</div> 
+ 		 <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->
+  </div><!-- end of accordion item 6-->
+				 
+    		 <div class="accordion__item js-accordion-item">
+				<div class="accordion-header js-accordion-header">
+					<div class="col-md-2 col-sm-2 pad0">SLXMAHOO117-180062967</div>
+					<div class="col-md-2 col-sm-2 pad0">Parag Jadhav</div>
+					<div class="col-md-8 col-sm-8 pad0">3</div>
+				</div> 
+		  	 <div class="accordion-body js-accordion-body">
+    
+      <div class="accordion js-accordion">
+        <div class="accordion__item js-accordion-item active">
+           <div class="accordion-header js-accordion-header">
+			<table class="table">
+                <thead>
+                    <tr class="">
+						<th class="">Loan A/c No</th>
+						<th class="">Name</th>
+						<th class="">Relation</th>
+						<th class="">Contact Number</th>
+						<th class="">Validation Status</th>
+						<th class="">Validation Date</th>
+						<th class="">Contact Type</th>
+						<th class="">New Contact No</th>
+						<th class="">Primary Contact</th>
+                    </tr>
+                </thead>
+			   </table>
+		   </div> 
+           <div class="accordion-body js-accordion-body" style="display: block">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                    <tr class="">
+                        <td class="">SLXMAHOO117-180062967</td>
+                        <td class="">Parag Jadhav</td>
+                        <td class="">Primary Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Sujata Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Pratik Jadhav</td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" ><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                 
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"><div class="radio checkbox-warning"><input id="radio1" type="radio" disabled><label for="radio1"></label>
+                    						</div></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item -->
+		  
+        <div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Reference</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+              <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Amar Patil</td>
+                        <td class="">Reference 1</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr> 
+					 <tr class="">
+                        <td class=""></td>
+                        <td class="">Ganesh Dhoke</td>
+                        <td class="">Reference 2</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						
+                        <td class=""  align="center"></td>
+                    </tr>
+					<tr class="">
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="">Joint Holder</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;" disabled>
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="" disabled>
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus="" disabled></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Reference-->
+		 
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Guarantor</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Nilesh Patil</td>
+                        <td class="">Guarantor</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Verified and found Ok</option>
+				<option>Verified and not found Ok</option>
+				<option>Pending for Verification</option>
+				<option>NA</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Guarantor-->
+		  
+		<div class="accordion__item js-accordion-item">
+           <div class="accordion-header js-accordion-header">
+		   		<div class="col-md-2 col-sm-2 pad0">Employer Office No.</div>
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		
+		<div class="accordion__item js-accordion-item">
+           <div class="header-btn">
+		   			<div class="col-md-12 col-sm-12">
+		<div style="float:right;">
+		  <button type="submit" class="btn">Submit</button>
+		  <button type="reset" class="btn">Cancel</button>
+		</div>			
+		</div><!-- end of button -->
+		   </div> 
+           <div class="accordion-body js-accordion-body">
+             <div class="accordion-body__contents">
+               <table class="table content-table">
+                <tbody>
+                   
+					<tr class="">
+                        <td class=""></td>
+                        <td class="">Zentex Ltd.</td>
+                        <td class="">Employer</td>
+						<td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+                        <td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Cheque Bounce</option>
+				<option>Late Fee</option>
+				<option>Legal Charges</option>
+				<option>more</option>                
+                </select></td>
+                        <td class=""><div id="datepicker2" class="input-group date form-control-input" data-date-format="dd-mm-yyyy" style="margin-bottom:10px;">
+                    <input class="form-control" type="text" readonly="">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div></td>
+						<td class=""><select id="" class="form-control form-control-input" placeholder="Primary Branch Mapping" required="" autofocus="">
+                <option>Mobile</option>
+				<option>Resi</option>
+				<option>Office</option>
+				<option>Other</option>                
+                </select></td>
+                        <td class=""><input type="text" id="" class="form-control form-control-input" placeholder="" required="" autofocus=""></td>
+						 
+                        <td class="" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+             </div><!-- end of sub accordion item body contents -->
+           </div><!-- end of sub accordion item body -->
+        </div><!-- end of sub accordion item Employer Office No.-->
+		  
+      </div><!-- end of sub accordion -->
+    </div><!-- end of accordion body -->
+  </div><!-- end of accordion item 7-->
+		</div><!-- end of accordion -->
+			 
+	</div>
+		
+		
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src='js/bootstrap-datepicker.js'></script>
+	<script  src="js/index-datepicker.js"></script>
+</div> <!--- Wrapper Close--->
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.pad0{padding: 0 !important;}
+.light-gray-bg {
+    background: #f4f6f8;
+}
+.aspire-store-app-bg {
+    background: url(../images/store_bg.png) 50% no-repeat;
+    background-size: cover;
+}
+.section-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    text-align: center;
+    color: #233e5c;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: inherit;
+    background: url(../images/title-logo.svg) top no-repeat;
+}
+.section-title:after, .section-title:before {
+    margin-top: 38px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+    width: 50px;
+    height: 1px;
+    background: #233e5c;
+}
+.section-title:before {
+    margin-left: -65px;
+    left: 0;
+}
+.section-title:after {
+    margin-right: -65px;
+    right: 0;
+}
+.tab {
+	background: #fff;
+    border: 1px solid #dee4ee;
+    padding: 10px;
+    margin-bottom: 2px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	float: left;
+    width: 100%;
+}
+.form-control {height: 30px !important;}
+.btn {
+	background: #db1f16;
+    color: #fff;
+    border: 1px solid transparent;
+    float: left;
+    margin: 8px 0 0 8px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn:hover {color: #636b6f;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+transition: all .3s ease-in-out 0s;}
+
+.red-bg .accordion-header, .red-bg accordion-header:hover{
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: #da1f16;
+}
+.header-top{ display: block; width: 100%; padding: 5px;}
+.header-btn{display: inline-block; width: 100%;background: #f1f1f1;}
+.table{margin-bottom: 0 !important;}
+.table > thead > tr > th{border: 0 !important; font-weight: normal; padding-top: 0 !important;}
+.content-table{border: 0px solid #ddd;}
+.content-table tr td{line-height: 15px !important; padding: 8px 8px 0 8px !important;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{width: 135px; padding-left: 0 !important;}
+.accordion__item.red-bg > .accordion-header:after{content: none !important;}
